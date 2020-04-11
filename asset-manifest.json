@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/github.io/trubo-train/static/js/main.9ba2b900.chunk.js",
-    "main.js.map": "/github.io/trubo-train/static/js/main.9ba2b900.chunk.js.map",
-    "runtime-main.js": "/github.io/trubo-train/static/js/runtime-main.238230f5.js",
-    "runtime-main.js.map": "/github.io/trubo-train/static/js/runtime-main.238230f5.js.map",
-    "static/css/2.de424728.chunk.css": "/github.io/trubo-train/static/css/2.de424728.chunk.css",
-    "static/js/2.f3ff0760.chunk.js": "/github.io/trubo-train/static/js/2.f3ff0760.chunk.js",
-    "static/js/2.f3ff0760.chunk.js.map": "/github.io/trubo-train/static/js/2.f3ff0760.chunk.js.map",
-    "index.html": "/github.io/trubo-train/index.html",
-    "precache-manifest.c954d93df5b555ea492f93c172c65d4d.js": "/github.io/trubo-train/precache-manifest.c954d93df5b555ea492f93c172c65d4d.js",
-    "service-worker.js": "/github.io/trubo-train/service-worker.js",
-    "static/css/2.de424728.chunk.css.map": "/github.io/trubo-train/static/css/2.de424728.chunk.css.map",
-    "static/js/2.f3ff0760.chunk.js.LICENSE.txt": "/github.io/trubo-train/static/js/2.f3ff0760.chunk.js.LICENSE.txt"
+    "main.js": "/trubo-train/static/js/main.61d83dbf.chunk.js",
+    "main.js.map": "/trubo-train/static/js/main.61d83dbf.chunk.js.map",
+    "runtime-main.js": "/trubo-train/static/js/runtime-main.06cd1458.js",
+    "runtime-main.js.map": "/trubo-train/static/js/runtime-main.06cd1458.js.map",
+    "static/css/2.de424728.chunk.css": "/trubo-train/static/css/2.de424728.chunk.css",
+    "static/js/2.f3ff0760.chunk.js": "/trubo-train/static/js/2.f3ff0760.chunk.js",
+    "static/js/2.f3ff0760.chunk.js.map": "/trubo-train/static/js/2.f3ff0760.chunk.js.map",
+    "index.html": "/trubo-train/index.html",
+    "precache-manifest.06187156d4bf147318d7b284854d5770.js": "/trubo-train/precache-manifest.06187156d4bf147318d7b284854d5770.js",
+    "service-worker.js": "/trubo-train/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/trubo-train/static/css/2.de424728.chunk.css.map",
+    "static/js/2.f3ff0760.chunk.js.LICENSE.txt": "/trubo-train/static/js/2.f3ff0760.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.238230f5.js",
+    "static/js/runtime-main.06cd1458.js",
     "static/css/2.de424728.chunk.css",
     "static/js/2.f3ff0760.chunk.js",
-    "static/js/main.9ba2b900.chunk.js"
+    "static/js/main.61d83dbf.chunk.js"
   ]
 }
