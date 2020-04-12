@@ -12,7 +12,7 @@ class App extends React.Component {
 	render() {
 		return (
 			<Container fluid={true}>
-				<Row className="mt-4 mb-4">
+				<Row className="pt-4 pb-4">
 					<Col className="text-center">
 						<h1>Tegger Coin Dashboard</h1>
 					</Col>

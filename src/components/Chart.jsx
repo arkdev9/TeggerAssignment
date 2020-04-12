@@ -22,7 +22,7 @@ class Chart extends React.Component {
 		let data = [];
 		let count = 0;
 		for (let day of fetchedData.reverse()) {
-			if (count === 60) break;
+			if (count === 30) break;
 			else count += 1;
 			labels.push(day.date.split("T")[0]);
 			data.push(day.priceUsd);
@@ -66,6 +66,7 @@ class Chart extends React.Component {
 				data={this.state.data}
 				width={100}
 				height={50}
+				options={{ title: { display: true, text: this.state.id + " - Price for Last 30 Days " } }}
 			/>
 		)
 	}

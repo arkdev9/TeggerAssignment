@@ -14,7 +14,7 @@ class CoinCard extends React.Component {
 	render() {
 		return (
 			<Card>
-				<CardHeader>
+				<CardHeader className="text-white bg-secondary">
 					<Media
 						object
 						middle
@@ -27,9 +27,8 @@ class CoinCard extends React.Component {
 					/>
 					{this.props.coin.symbol} - {this.props.coin.name}
 				</CardHeader>
-				<CardBody>
+				<CardBody >
 					<CardText>
-						{/* TODO: Truncate the digits and suffix billions or millions, etc... */}
 						Price: <NumberFormat
 							prefix={"$"}
 							thousandSeparator={true}
@@ -46,7 +45,7 @@ class CoinCard extends React.Component {
 							decimalScale={2}
 							style={{ float: "right" }} />
 						<br />
-						VWAP: <NumberFormat
+						VWAP (24Hr): <NumberFormat
 							prefix={"$"}
 							thousandSeparator={true}
 							value={this.props.coin.vwap24Hr}
@@ -55,14 +54,13 @@ class CoinCard extends React.Component {
 							style={{ float: "right" }} />
 						<br />
 						Supply: <NumberFormat
-							prefix={"$"}
 							thousandSeparator={true}
 							value={this.props.coin.supply}
 							displayType={"text"}
 							decimalScale={2}
 							style={{ float: "right" }} />
 						<br />
-						Volume: <NumberFormat
+						Volume (24Hr): <NumberFormat
 							prefix={"$"}
 							thousandSeparator={true}
 							value={this.props.coin.volumeUsd24Hr}
@@ -70,7 +68,7 @@ class CoinCard extends React.Component {
 							decimalScale={2}
 							style={{ float: "right" }} />
 						<br />
-						Change: <NumberFormat
+						Change (24Hr): <NumberFormat
 							suffix={"%"}
 							className={
 								this.props.coin.changePercent24Hr > 0 ? "text-success" : "text-danger"
@@ -81,7 +79,7 @@ class CoinCard extends React.Component {
 							decimalScale={2}
 							style={{ float: "right" }} />
 						<br />
-						<Link to={"/chart/" + this.props.coin.id}><Button>View Price History</Button></Link>
+						<Link to={"/chart/" + this.props.coin.id}><Button className="mt-3">View Price History</Button></Link>
 					</CardText>
 				</CardBody>
 			</Card>
