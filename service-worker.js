@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/turbo-train/precache-manifest.2b6984a11f29b76f3215e0f1238abde3.js"
+  "/turbo-train/precache-manifest.1064a300fe1d1da3ea3440fb2809d84a.js"
 );
 
 self.addEventListener('message', (event) => {
