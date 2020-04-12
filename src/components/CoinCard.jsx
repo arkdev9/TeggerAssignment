@@ -1,11 +1,13 @@
 import React from "react";
 import {
+	Button,
 	Card,
 	CardHeader,
 	CardBody,
 	CardText,
 	Media
 } from "reactstrap";
+import { Link } from "react-router-dom";
 import NumberFormat from "react-number-format";
 
 class CoinCard extends React.Component {
@@ -79,6 +81,7 @@ class CoinCard extends React.Component {
 							decimalScale={2}
 							style={{ float: "right" }} />
 						<br />
+						<Link to={"/chart/" + this.props.coin.id}><Button>View Price History</Button></Link>
 					</CardText>
 				</CardBody>
 			</Card>
